@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Can't Be Reached</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            text-align: left;
+        }
+        .icon {
+            display: block;
+            width: 48px;  /* Adjust size to match Chrome */
+            height: 48px;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .url {
+            color: #9099fc;
+            font-weight: bold;
+        }
+        .suggestions {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .suggestions a {
+            color: #9099fc;
+            text-decoration: none;
+        }
+        .error-code {
+            margin-top: 10px;
+            font-size: 12px;
+            color: gray;
+        }
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 400px;
+        }
+        .reload, .details {
+            background-color: #3a3a3a;
+            color: #dcdcdc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .reload:hover, .details:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace 'YOUR_IMAGE_URL_HERE' with the GitHub-hosted image link -->
+        <img class="icon" src="Screenshot 2025-02-25 131522.png" alt="Chrome Error Icon">
+        <div class="title">This site can’t be reached</div>
+        <div class="url">totallyrealwebsite</div> unexpectedly closed the connection.
+        <div class="suggestions">
+            Try:
+            <ul>
+                <li>Checking the connection</li>
+                <li><a href="#">Checking the proxy and the firewall</a></li>
+                <li><a href="#">Running Windows Network Diagnostics</a></li>
+            </ul>
+        </div>
+        <div class="error-code">ERR_CONNECTION_CLOSED</div>
+        <div class="buttons">
+            <button class="reload">Reload</button>
+            <button class="details">Details</button>
+        </div>
+    </div>
+</body>
+</html>
